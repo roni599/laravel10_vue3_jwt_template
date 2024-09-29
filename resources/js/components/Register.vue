@@ -1,71 +1,47 @@
 <template>
-  <div id="layoutAuthentication mt-5">
-    <div id="layoutAuthentication_content">
-      <main>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7">
-              <div class="card shadow-lg border-0 rounded-lg mt-5">
-                <div class="card-header">
-                  <h3 class="text-center font-weight-light my-4">Create Account</h3>
+
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <img src="/public/Admin/assets/images/logo-dark.svg" alt="images" class="img-fluid mb-4">
+              <h4 class="f-w-500 mb-1">Register with your email</h4>
+              <p class="mb-4">Already have an Account? <a href="../pages/login-v1.html" class="link-primary">Log in</a>
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control" placeholder="First Name">
                 </div>
-                <div class="card-body">
-                  <form>
-                    <div class="row mb-3">
-                      <div class="col-md-6">
-                        <div class="form-floating mb-3 mb-md-0">
-                          <input class="form-control" id="inputFirstName" type="text"
-                            placeholder="Enter your first name" />
-                          <label for="inputFirstName">First name</label>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-floating">
-                          <input class="form-control" id="inputLastName" type="text"
-                            placeholder="Enter your last name" />
-                          <label for="inputLastName">Last name</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-floating mb-3">
-                      <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                      <label for="inputEmail">Email address</label>
-                    </div>
-                    <div class="row mb-3">
-                      <div class="col-md-6">
-                        <div class="form-floating mb-3 mb-md-0">
-                          <input class="form-control" id="inputPassword" type="password"
-                            placeholder="Create a password" />
-                          <label for="inputPassword">Password</label>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-floating mb-3 mb-md-0">
-                          <input class="form-control" id="inputPasswordConfirm" type="password"
-                            placeholder="Confirm password" />
-                          <label for="inputPasswordConfirm">Confirm Password</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mt-4 mb-0">
-                      <div class="d-grid"><a class="btn btn-primary btn-block" href="login.html">Create Account</a>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="card-footer text-center py-3">
-                  <div class="small">
-                    <!-- <a href="login.html">Have an account? Go to login</a> -->
-                    <router-link to="/">Have an account? Go to login</router-link>
-                  </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control" placeholder="Last Name">
                 </div>
               </div>
             </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group mb-3">
+              <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-group mb-3">
+              <input type="password" class="form-control" placeholder="Confirm Password">
+            </div>
+            <div class="d-flex mt-1 justify-content-between">
+              <div class="form-check">
+                <input class="form-check-input input-primary" type="checkbox" id="customCheckc1" checked="">
+                <label class="form-check-label text-muted" for="customCheckc1">I agree to all the Terms &
+                  Condition</label>
+              </div>
+            </div>
+            <div class="d-grid mt-4">
+              <button type="button" class="btn btn-primary">Create Account</button>
+            </div>
           </div>
         </div>
-      </main>
-    </div>
-  </div>
+
 </template>
 
 <script>

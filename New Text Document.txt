@@ -100,7 +100,7 @@
     <div class="m-header">
       <a href="/public/Admin/dashboard/index.html" class="b-brand text-primary">
         <!-- ========   Change your logo from here   ============ -->
-        <img src="/public/Admin/assets/images/laptop_paradise_modified.png" alt="logo image" style="margin-left: -80px" width="300" class="logo-lg">
+        <img src="/public/Admin/assets/images/logo-white.svg" alt="logo image" class="logo-lg">
       </a>
     </div>
     <div class="header-wrapper"> <!-- [Mobile Media Block] start -->
@@ -240,20 +240,9 @@ export default {
 };
 </script>
 <style scoped>
-.pc-container {
-  position: relative;
-}
-
-.pc-container .pc-content {
-  padding-left: 35px;
-  padding-right: 35px;
-  /* padding-top: 35px; */
-}
-
 .custom-style {
   margin-left: 245px;
   top: 60px;
-  padding-top: 35px;
   min-height: calc(100vh - 121px);
 }
 
@@ -261,52 +250,5 @@ export default {
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 0px;
-}
-
-@media (max-width: 1200px) {
-  .custom-style {
-    margin-left: 200px;
-    top: 50px;
-  }
-}
-
-@media (max-width: 992px) {
-  .custom-style {
-    margin-left: 150px;
-    top: 40px;
-    min-height: calc(100vh - 100px);
-  }
-
-  .no-padding {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .custom-style {
-    margin-left: 0;
-    top: 40px;
-    min-height: calc(100vh - 80px);
-  }
-
-  .no-padding {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
-@media (max-width: 576px) {
-  .custom-style {
-    margin-left: 0;
-    top: 40px;
-    min-height: calc(100vh - 60px);
-  }
-
-  .no-padding {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 </style>

@@ -2,6 +2,8 @@ import Login from '../components/Login.vue';
 import Register from '../components/Register.vue';
 import Forget from '../components/Forget.vue';
 import {createRouter,createWebHistory} from 'vue-router';
+import Home from '../components/Home.vue';
+import Main from '../components/Main.vue';
 
 const routes=[
     {
@@ -18,6 +20,16 @@ const routes=[
         name:'Forget',
         component:Forget,
         path:'/forget'
+    },
+    {
+        name:'Home',
+        component:Home,
+        path:'/home'
+    },
+    {
+        name:'Main',
+        component:Main,
+        path:'/main'
     }
 ];
 
