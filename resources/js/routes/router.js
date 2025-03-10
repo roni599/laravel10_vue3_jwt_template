@@ -3,7 +3,6 @@ import Register from '../components/Register.vue';
 import Forget from '../components/Forget.vue';
 import {createRouter,createWebHistory} from 'vue-router';
 import Home from '../components/Home.vue';
-import Main from '../components/Main.vue';
 
 const routes=[
     {
@@ -26,11 +25,6 @@ const routes=[
         component:Home,
         path:'/home'
     },
-    {
-        name:'Main',
-        component:Main,
-        path:'/main'
-    }
 ];
 
 const router=createRouter({

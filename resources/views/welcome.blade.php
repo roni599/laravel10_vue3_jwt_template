@@ -44,13 +44,13 @@
     <!-- [Page Specific JS] start -->
     @vite('resources/js/app.js')
     <script src="{{ asset('Admin') }}/assets/js/plugins/apexcharts.min.js"></script>
-    <script src="{{ asset('Admin') }}/assets/js/plugins/jsvectormap.min.js"></script>
+    {{-- <script src="{{ asset('Admin') }}/assets/js/plugins/jsvectormap.min.js"></script>
     <script src="{{ asset('Admin') }}/assets/js/plugins/world.js"></script>
     <script src="{{ asset('Admin') }}/assets/js/plugins/world-merc.js"></script>
-    <script src="{{ asset('Admin') }}/assets/js/pages/dashboard-sales.js"></script>
+    <script src="{{ asset('Admin') }}/assets/js/pages/dashboard-sales.js"></script> --}}
     <!-- [Page Specific JS] end -->
     <!-- Required Js -->
-    <script src="{{ asset('Admin') }}/assets/js/plugins/popper.min.js"></script>
+    {{-- <script src="{{ asset('Admin') }}/assets/js/plugins/popper.min.js"></script>
     <script src="{{ asset('Admin') }}/assets/js/plugins/simplebar.min.js"></script>
     <script src="{{ asset('Admin') }}/assets/js/plugins/bootstrap.min.js"></script>
     <script src="{{ asset('Admin') }}/assets/js/fonts/custom-font.js"></script>
@@ -62,7 +62,7 @@
     <script>layout_caption_change('true');</script>
     <script>layout_rtl_change('false');</script>
     <script>preset_change("preset-1");</script>
-    <script>header_change("header-1");</script>
+    <script>header_change("header-1");</script> --}}
 </body>
 <!-- [Body] end -->
 

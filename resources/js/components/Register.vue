@@ -1,11 +1,13 @@
 <template>
-
+  <div class="auth-main v1">
+    <div class="auth-wrapper">
+      <div class="auth-form">
         <div class="card">
           <div class="card-body">
             <div class="text-center">
               <img src="/public/Admin/assets/images/logo-dark.svg" alt="images" class="img-fluid mb-4">
               <h4 class="f-w-500 mb-1">Register with your email</h4>
-              <p class="mb-4">Already have an Account? <a href="../pages/login-v1.html" class="link-primary">Log in</a>
+              <p class="mb-4">Already have an Account? <router-link to="/" class="link-primary">Log in</router-link>
               </p>
             </div>
             <div class="row">
@@ -41,12 +43,20 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
 
 </template>
 
 <script>
 export default {
-  name: 'Register-Form'
+  name: 'Register-Form',
+  setup() {
+    return {
+
+    }
+  }
 }
 </script>
 
